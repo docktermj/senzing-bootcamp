@@ -126,6 +126,7 @@ Ask which programming languages they use regularly:
 - Other (ask which)
 
 **Qualification note:**
+
 - Java, Python, and C# are fully supported — exercises will be tailored to whichever they use.
 - If the applicant mentions Rust, Go, or R: acknowledge that Senzing has SDK support for those languages currently in development, and note it in the email.
 - Do not proactively mention Rust, Go, or R — only acknowledge if the applicant brings them up.
@@ -187,23 +188,30 @@ working code they can use in their own environment. Share this with the applican
 
 ## Final Step: Draft the Qualification Email
 
-Once all sections are complete, summarize the applicant's answers and draft an email to Senzing.
+Once all sections are complete, draft a qualification email to Senzing.
 
 **To:** [PLACEHOLDER — replace with official Senzing boot camp email before publishing]
 **Subject:** Boot Camp Application — [Applicant Name or Company]
 
-The email should include:
+**Guidelines for drafting the email:**
 
-- Applicant name, title, company, email, phone, and mailing address
+- The email must contain enough detail for Senzing to independently assess whether the applicant qualifies. Do not over-condense.
+- When the applicant provided free-form text (e.g., describing their data, their goals, their problem), quote or closely paraphrase their words. Their own description is more valuable than a boilerplate restatement.
+- For structured answers (e.g., OS version, participant count), a brief summary is fine.
+- Flag any potential blockers clearly — do not bury them.
+
+**The email should include:**
+
+- Full contact information: name, title, company, email, phone, mailing address
 - Platform and OS version
 - AI tools available
-- Internet access situation (note any air-gap or proxy issues)
-- Docker experience and any container restrictions
-- Programming language(s)
-- Senzing experience level
-- Data description (type, volume, format, any PII or restrictions)
-- Workshop logistics (participant count, computing environment, on-site vs. off-site, location, venue facilities, preferred dates)
-- Their stated goals and any additional success criteria
-- A recommendation line: "Based on the above, this applicant [appears qualified / may need additional setup / has a potential blocker]" with a brief reason
+- Internet access situation (note any air-gap, proxy, or firewall restrictions)
+- Docker status (installed / will install / blocked) and experience level
+- Programming language(s) — note if any are in-development or unsupported
+- Senzing experience level and license status
+- Data description — use the applicant's own words where possible: type, volume, format, PII status, usage restrictions, anonymization plan, and any data artifacts they can share in advance
+- Workshop logistics: participant count, computing environment (laptops/workstations, one per person?), on-site vs. off-site, city/state, venue facilities, preferred dates and blackout periods
+- Goals — quote the applicant's stated problem and success criteria directly
+- A recommendation line: "Based on the above, this applicant [appears qualified / may need additional setup before the workshop / has a potential blocker that requires resolution]" followed by a brief explanation
 
-Keep the email professional and concise. Present it as a draft for the applicant to review before sending.
+Present the draft to the applicant for review before sending.
