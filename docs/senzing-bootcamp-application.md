@@ -71,8 +71,10 @@ Ask them to describe the data they plan to bring to the boot camp:
 - What format? (CSV, JSON, database, API, other)
 - Does the data contain PII (personally identifiable information)?
 - Is there any restriction on using the data in a workshop setting?
+- If yes to restrictions: what is the nature of the restriction? (e.g., cannot leave premises, cannot be shared with third parties, requires anonymization)
+- If data cannot be used directly: can they prepare an anonymized or synthetic version that preserves the structure and field types?
 
-**Qualification note:** Data should be structured records with identity-related fields (name, address, ID numbers, etc.). Completely unstructured data (e.g., raw documents) is not suitable. PII restrictions are important to note.
+**Qualification note:** Data should be structured records with identity-related fields (name, address, ID numbers, etc.). Completely unstructured data (e.g., raw documents) is not suitable. PII restrictions are important to note. Anonymized data that preserves structure is acceptable and often preferable.
 
 ---
 
@@ -83,10 +85,10 @@ Ask about their experience with Docker and containers:
 - Have they used Docker before?
 - Can they run `docker run hello-world` successfully on their machine?
 - Are they familiar with Docker Compose?
-- Is Docker installed (or installable) on the machine they'll use for the boot camp?
+- Is Docker installed (or installable) on the machine they'll use for the boot camp? (Note: Docker is free to install on Linux, macOS, and Windows)
 - Are there any corporate restrictions that prevent running Docker containers?
 
-**Qualification note:** Docker is required — Senzing runs in containers. No Docker access is a disqualifier unless it can be resolved before the workshop. Note their experience level and any restrictions.
+**Qualification note:** Docker is required — Senzing runs in containers. No Docker access is a disqualifier unless it can be resolved before the workshop. If they don't have Docker, reassure them it is free and straightforward to install, and ask them to confirm they will install it before the event. Note their experience level and any restrictions.
 
 ---
 
