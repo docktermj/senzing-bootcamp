@@ -31,11 +31,12 @@ Ask in this order:
 1. Full name
 2. Job title
 3. Company name
-4. Email address
-5. Phone number
-6. Mailing address — ask street, city, state, zip, and country together as one prompt
-7. Are you the person who can commit to scheduling the boot camp, or is there someone else who needs to approve? (If someone else, ask for their name and role)
-8. How did you hear about the Senzing Boot Camp?
+4. Are you a developer who will attend the boot camp yourself, or are you a manager/coordinator sending your team? (This helps Senzing understand who to communicate with and how to calibrate the workshop)
+5. Email address
+6. Phone number
+7. Mailing address — ask street, city, state, zip, and country together as one prompt
+8. Are you the person who can commit to scheduling the boot camp, or is there someone else who needs to approve? (If someone else, ask for their name and role)
+9. How did you hear about the Senzing Boot Camp?
 
 After all fields have been asked, display a recap of everything entered:
 
@@ -90,8 +91,9 @@ Ask about the network environment for all participants — not just the applican
 - Do all participants have unrestricted internet access on the machines they'll use?
 - Are any machines behind a corporate proxy or firewall? If yes, can they reach external APIs?
 - Are any machines air-gapped (no internet access)? If yes, is there a path to get internet access for the boot camp?
+- The boot camp uses AI APIs (e.g., api.anthropic.com for Claude). Can participants reach external API endpoints from the workshop network? (This is separate from general web browsing access)
 
-**Qualification note:** Internet access is required on every participant's machine. Air-gapped environments are a disqualifier unless access can be arranged. Note any restrictions.
+**Qualification note:** Internet access and external API reachability are required on every participant's machine. Air-gapped environments or networks that block external API calls are a disqualifier unless access can be arranged. Note any restrictions.
 
 ---
 
@@ -103,6 +105,8 @@ Ask them to describe the data they plan to bring to the boot camp — ask one qu
 - How many data sources do they want to work with during the boot camp? (e.g., one dataset for de-duplication, or multiple sources to resolve across)
 - Roughly how many records across all sources? (hundreds, thousands, millions?)
 - What format? (CSV, JSON, database, API, other)
+- If **database**: ask which database system (e.g., PostgreSQL, MySQL, Oracle, SQL Server, SQLite)
+- If **API**: ask whether it is REST or SOAP, and whether API documentation is available
 - Does the data contain PII (personally identifiable information)?
 - Is there any restriction on using the data in a workshop setting?
 - If yes to restrictions: what is the nature of the restriction? (e.g., cannot leave premises, cannot be shared with third parties, requires anonymization)
@@ -137,6 +141,7 @@ Ask about their prior experience with Senzing — one question at a time:
 - If yes: ask what type of license it is and how many records it supports.
 - Then ask: "Based on the data volume you described, do you believe your current license is sufficient to cover all sources and records during the workshop?"
 - If no or unsure: note that a trial license will be needed and flag it in the email. Ask how many records the trial license would need to cover based on their data volume.
+- If a trial license is needed: ask how long their internal approval or procurement process typically takes. (This may affect scheduling.)
 
 **Qualification note:** No prior Senzing experience is required, but it helps to calibrate the boot camp level. Note their experience level and license status — specifically whether their license covers the data volume they plan to bring, and the required license size if a trial is needed.
 
@@ -182,11 +187,13 @@ Ask the following one at a time:
 **Participants:**
 
 - How many people do they expect to participate in the boot camp?
+- What is the general technical level of the participants? (e.g., junior developers, mid-level, senior engineers, architects, mixed)
+- Does the applicant expect Senzing to provide on-site facilitation, remote facilitation, or will the workshop be self-facilitated?
 
 **Computing environment:**
 
 - Will participants be using laptops or workstations?
-- What operating system will the machines be running? (confirm consistency or note variation)
+- Are all participant machines running the same platform and OS version as described earlier, or is there any variation? (Note any differences)
 - Will each participant have their own machine, or will they share?
 
 **Location:**
@@ -245,17 +252,18 @@ Once all sections are complete, draft a qualification email to Senzing.
 **The email should include:**
 
 - Full contact information: name, title, company, email, phone, mailing address
+- Applicant's role (attending developer or coordinating manager)
 - Decision-maker status (is the applicant the decision-maker, or who else needs to approve?)
 - How they heard about the boot camp
 - Platform(s) and OS version(s) for all participants
 - AI tools available across the group
-- Internet access situation for all participants (note any air-gap, proxy, or firewall restrictions)
+- Internet access situation for all participants (note any air-gap, proxy, firewall, or external API blocking)
 - Docker status across all machines (installed / will install / blocked), admin access status, and experience level
 - Programming language(s) — note if any are in-development or unsupported
-- Senzing experience level, prior trial license use, and license status — specify clearly: does the applicant need a trial license? If they have a license, does it cover the data volume they plan to bring? State the required license size if applicable.
-- Data description — use the applicant's own words: type, number of sources, volume, format, PII status, usage restrictions, anonymization plan
+- Senzing experience level, prior trial license use, and license status — specify clearly: does the applicant need a trial license? If they have a license, does it cover the data volume they plan to bring? State the required license size if applicable. If a trial is needed, note their internal procurement timeline.
+- Data description — use the applicant's own words: type, number of sources, volume, format (including database system or API type if applicable), PII status, usage restrictions, anonymization plan
 - Data artifacts the applicant is willing to share with Senzing in advance (list each item they confirmed they have and will share)
-- Workshop logistics: participant count, computing environment (laptops/workstations, one per person?), on-site vs. off-site, full venue address (mandatory if on-site), venue facilities, preferred dates and blackout periods
+- Workshop logistics: participant count, technical level of participants, computing environment (laptops/workstations, one per person?), on-site vs. off-site, full venue address (mandatory if on-site), venue facilities, preferred dates and blackout periods, facilitation preference (on-site Senzing staff / remote / self-facilitated)
 - Goals — quote the applicant's stated problem, desired output form, and success criteria directly
 - A recommendation line: "Based on the above, this applicant [appears qualified / may need additional setup before the workshop / has a potential blocker that requires resolution]" followed by a brief explanation
 
