@@ -30,26 +30,28 @@ Ask for the following contact details:
 
 ## Section 2: Platform
 
-Ask what operating system they will be using for the boot camp:
+Present the following as a numbered list and ask the applicant to choose:
 
-- Windows (which version?)
-- Linux (which distribution and version?)
-- macOS (which version?)
+1. Windows
+2. Linux
+3. macOS
 
-**Qualification note:** All major platforms are supported. Note the platform for the email.
+Once they choose, ask for the specific version or distribution.
+
+**Qualification note:** All major platforms are supported. Note the platform and version for the email.
 
 ---
 
 ## Section 3: AI Tools
 
-Ask which AI tools they currently use or have access to:
+Present the following as a numbered list and ask the applicant to select all that apply:
 
-- Claude (Anthropic)
-- ChatGPT / OpenAI
-- GitHub Copilot
-- Microsoft Copilot
-- Other (ask which)
-- None
+1. Claude (Anthropic)
+2. ChatGPT / OpenAI
+3. GitHub Copilot
+4. Microsoft Copilot
+5. Other (ask which)
+6. None
 
 **Qualification note:** Claude is preferred for the boot camp. If they use another tool, note it — they can still attend but may need to adapt some exercises.
 
