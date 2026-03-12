@@ -74,6 +74,17 @@ Ask them to describe the data they plan to bring to the boot camp:
 - If yes to restrictions: what is the nature of the restriction? (e.g., cannot leave premises, cannot be shared with third parties, requires anonymization)
 - If data cannot be used directly: can they prepare an anonymized or synthetic version that preserves the structure and field types?
 
+To help Senzing assess the viability of success with your data before the boot camp, would you be able to share any of the following in advance?
+
+- Sample anonymized data
+- JSON Schema
+- JSON Type Definition (RFC 8927)
+- CSV headers (no data rows required)
+- Database schema
+- API documentation
+
+This is optional but helps Senzing tailor the exercises to your specific data structure.
+
 **Qualification note:** Data should be structured records with identity-related fields (name, address, ID numbers, etc.). Completely unstructured data (e.g., raw documents) is not suitable. PII restrictions are important to note. Anonymized data that preserves structure is acceptable and often preferable.
 
 ---
