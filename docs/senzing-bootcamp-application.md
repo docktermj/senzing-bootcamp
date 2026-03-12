@@ -99,11 +99,9 @@ Ask which programming languages they use regularly:
 - Java
 - Python
 - C# (.NET)
-- Go
-- R
 - Other (ask which)
 
-**Qualification note:** Senzing has the strongest SDK support for Java, Python, and C#. Go and R are supported but to a lesser extent. Note their primary language — exercises will be tailored accordingly. If their language is not in the list above, flag it for review.
+**Qualification note:** Senzing has strong SDK support for Java, Python, and C#. If their primary language is not in this list, flag it for review as exercises will be tailored to supported languages.
 
 ---
 
