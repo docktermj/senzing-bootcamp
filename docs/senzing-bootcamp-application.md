@@ -79,13 +79,17 @@ After all fields have been asked, display a recap of everything entered:
 
 ## Section 2: Boot Camp Type
 
-There are three types of Senzing Boot Camps. Present the following as a numbered list and ask the applicant which they are interested in:
+**REQUIRED — Do not skip this question. Do not proceed to Section 3 until the applicant has answered.**
 
-1. **On-site** — Senzing comes to the applicant's location and runs the workshop there
-2. **Senzing-hosted** — The applicant's team travels to a Senzing location
-3. **Virtual** — The workshop is conducted remotely over Zoom or Microsoft Teams *(not yet available)*
+Ask the applicant: "There are three types of Senzing Boot Camps. Which are you interested in?"
 
-Wait for their answer, then follow the routing rules below.
+Present as a numbered list and wait for their answer before continuing:
+
+1. **On-site** — Senzing comes to your location and runs the workshop there
+2. **Senzing-hosted** — Your team travels to a Senzing location
+3. **Virtual** — Conducted remotely over Zoom or Microsoft Teams *(not yet available)*
+
+Record their answer, then follow the routing rules below based on what they chose.
 
 ---
 
