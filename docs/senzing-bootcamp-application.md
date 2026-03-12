@@ -112,19 +112,39 @@ Ask which programming languages they use regularly:
 Ask the following one at a time:
 
 **Participants:**
+
 - How many people do they expect to participate in the boot camp?
 
 **Computing environment:**
+
 - Will participants be using laptops or workstations?
 - What operating system will the machines be running? (confirm consistency or note variation)
 - Will each participant have their own machine, or will they share?
 
 **Location:**
+
 - Is the expectation that the boot camp is hosted on-site at their location, or off-site?
+- If on-site: what city and state are they located in?
 - If on-site: confirm that participants will have internet access from their workstations (ties back to Section 3)
 - If off-site: confirm that participants are able to bring their example data with them to work with outside their company environment. Note any data portability restrictions.
 
-**Qualification note:** On-site is the default assumption. Off-site attendance requires explicit confirmation that data can leave the premises. Note participant count and computing setup for logistics planning.
+**Venue and facilities (on-site only):**
+
+Ask about the room and setup they can provide:
+
+- Tables and chairs for all participants?
+- Projector or large display screen?
+- Whiteboard or flip chart?
+- Sufficient power outlets for all laptops/workstations?
+- Wi-Fi or wired internet connectivity in the room?
+
+**Preferred dates:**
+
+- The boot camp runs two consecutive days, typically Tuesday/Wednesday or Wednesday/Thursday.
+- What dates or date ranges work best for them?
+- Are there any dates or periods to avoid? (e.g., holidays, company blackouts, quarter-end)
+
+**Qualification note:** On-site is the default assumption. Off-site attendance requires explicit confirmation that data can leave the premises. Note participant count, location, facilities, and preferred dates for scheduling.
 
 ---
 
@@ -156,7 +176,7 @@ The email should include:
 - Programming language(s)
 - Senzing experience level
 - Data description (type, volume, format, any PII or restrictions)
-- Workshop logistics (participant count, computing environment, on-site vs. off-site, data portability)
+- Workshop logistics (participant count, computing environment, on-site vs. off-site, location, venue facilities, preferred dates)
 - Their stated goals and any additional success criteria
 - A recommendation line: "Based on the above, this applicant [appears qualified / may need additional setup / has a potential blocker]" with a brief reason
 
