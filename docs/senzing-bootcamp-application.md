@@ -53,7 +53,22 @@ After all fields have been asked, display a recap of everything entered:
 
 ---
 
-## Section 2: Platform
+## Section 2: Hosting
+
+Before proceeding, ask this routing question:
+
+"Will the boot camp be hosted at your location (on-site), or are you interested in attending a Senzing-hosted boot camp at a Senzing location?"
+
+1. On-site — hosted at the applicant's location
+2. Senzing-hosted — hosted at a Senzing location
+
+**If on-site:** continue through all sections as written.
+
+**If Senzing-hosted:** skip Section 4 (Internet Access) and Section 9 (Workshop Logistics) entirely — Senzing handles those logistics. Note the hosting preference in the email.
+
+---
+
+## Section 4: Platform
 
 Ask what platform all participants will be using for the boot camp. If participants are not all on the same platform, ask them to describe the mix.
 
@@ -75,7 +90,7 @@ Wait for their answer. Then ask a follow-up question based on what they chose �
 
 ---
 
-## Section 3: AI Tools
+## Section 5: AI Tools
 
 Ask which AI tools all participants currently use or have access to. Present the following as a numbered list and ask them to select all that apply across the group:
 
@@ -90,7 +105,7 @@ Ask which AI tools all participants currently use or have access to. Present the
 
 ---
 
-## Section 4: Internet Access
+## Section 6: Internet Access (On-site only — skip if Senzing-hosted)
 
 Ask about the network environment for all participants — not just the applicant:
 
@@ -105,7 +120,7 @@ Ask about the network environment for all participants — not just the applican
 
 ---
 
-## Section 5: Sample Data
+## Section 7: Sample Data
 
 Ask them to describe the data they plan to bring to the boot camp — ask one question at a time:
 
@@ -139,7 +154,7 @@ Ask the applicant to select which they have. For each item they select, ask whet
 
 ---
 
-## Section 6: Senzing Experience
+## Section 8: Senzing Experience
 
 Ask about their prior experience with Senzing — one question at a time:
 
@@ -157,7 +172,7 @@ Ask about their prior experience with Senzing — one question at a time:
 
 ---
 
-## Section 7: Docker Experience
+## Section 9: Docker Experience
 
 Ask about Docker across all participants and their machines — one question at a time:
 
@@ -172,7 +187,7 @@ Ask about Docker across all participants and their machines — one question at 
 
 ---
 
-## Section 8: Programming Languages
+## Section 10: Programming Languages
 
 Ask which programming languages participants use regularly. Present as a numbered list:
 
@@ -190,7 +205,7 @@ Ask which programming languages participants use regularly. Present as a numbere
 
 ---
 
-## Section 9: Workshop Logistics
+## Section 11: Workshop Logistics (On-site only — skip if Senzing-hosted)
 
 Ask the following one at a time:
 
@@ -233,7 +248,7 @@ The host is responsible for providing all equipment and facilities. Senzing does
 
 ---
 
-## Section 10: Goals
+## Section 12: Goals
 
 Senzing's definition of success for the boot camp is that every participant walks away with
 working code they can use in their own environment. Share this with the applicant, then ask:
@@ -265,6 +280,7 @@ Once all sections are complete, draft a qualification email to Senzing.
 - Applicant's role (attending developer or coordinating manager)
 - Decision-maker status (is the applicant the decision-maker, or who else needs to approve?)
 - How they heard about the boot camp
+- Hosting preference (on-site at applicant's location or Senzing-hosted)
 - Platform(s) and OS version(s) for all participants
 - AI tools available across the group
 - Internet access situation for all participants (note any air-gap, proxy, firewall, or external API blocking)
