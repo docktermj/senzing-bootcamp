@@ -53,18 +53,36 @@ After all fields have been asked, display a recap of everything entered:
 
 ---
 
-## Section 2: Hosting
+## Section 2: Boot Camp Type
 
-Before proceeding, ask this routing question:
+There are three types of Senzing Boot Camps. Ask the applicant which they are interested in:
 
-"Will the boot camp be hosted at your location (on-site), or are you interested in attending a Senzing-hosted boot camp at a Senzing location?"
+1. **On-site** — Senzing comes to the applicant's location and runs the workshop there
+2. **Senzing-hosted** — The applicant's team travels to a Senzing location
+3. **Virtual** — The workshop is conducted remotely over Zoom or Microsoft Teams
 
-1. On-site — hosted at the applicant's location
-2. Senzing-hosted — hosted at a Senzing location
+Wait for their answer, then follow the routing rules below.
 
-**If on-site:** continue through all sections as written.
+---
 
-**If Senzing-hosted:** skip Section 4 (Internet Access) and Section 9 (Workshop Logistics) entirely — Senzing handles those logistics. Note the hosting preference in the email.
+**If On-site:**
+- Continue through all sections as written.
+- Section 6 (Internet Access) and Section 11 (Workshop Logistics) are required.
+
+---
+
+**If Senzing-hosted:**
+- Skip Section 6 (Internet Access) — Senzing's facility handles connectivity.
+- Skip Section 11 (Workshop Logistics) — Senzing handles the venue.
+- After recording their answer, ask this follow-up: "During the workshop, how will you access your data? Will you bring it on your laptop, or will you access it remotely over the internet?"
+- Note their data access method in the email.
+
+---
+
+**If Virtual:**
+- No additional specifics are defined for virtual boot camps at this time.
+- Note the virtual preference in the email and flag it for Senzing to follow up with details.
+- Skip Section 6 (Internet Access) and Section 11 (Workshop Logistics).
 
 ---
 
@@ -105,7 +123,7 @@ Ask which AI tools all participants currently use or have access to. Present the
 
 ---
 
-## Section 6: Internet Access (On-site only — skip if Senzing-hosted)
+## Section 6: Internet Access (On-site only — skip if Senzing-hosted or Virtual)
 
 Ask about the network environment for all participants — not just the applicant:
 
@@ -205,7 +223,7 @@ Ask which programming languages participants use regularly. Present as a numbere
 
 ---
 
-## Section 11: Workshop Logistics (On-site only — skip if Senzing-hosted)
+## Section 11: Workshop Logistics (On-site only — skip if Senzing-hosted or Virtual)
 
 Ask the following one at a time:
 
@@ -280,7 +298,7 @@ Once all sections are complete, draft a qualification email to Senzing.
 - Applicant's role (attending developer or coordinating manager)
 - Decision-maker status (is the applicant the decision-maker, or who else needs to approve?)
 - How they heard about the boot camp
-- Hosting preference (on-site at applicant's location or Senzing-hosted)
+- Boot camp type (on-site / Senzing-hosted / virtual) — for Senzing-hosted, include how the applicant will access their data (laptop or internet); for virtual, flag as TBD
 - Platform(s) and OS version(s) for all participants
 - AI tools available across the group
 - Internet access situation for all participants (note any air-gap, proxy, firewall, or external API blocking)
