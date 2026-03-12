@@ -36,7 +36,10 @@ Present the following as a numbered list and ask the applicant to choose:
 2. Linux
 3. macOS
 
-Once they choose, ask for the specific version or distribution.
+Once they choose:
+- If **Windows**: ask which version (e.g., Windows 10, Windows 11)
+- If **Linux**: ask which distribution (e.g., Ubuntu, RHEL, Debian, Fedora) and which version number
+- If **macOS**: ask which version (e.g., Ventura, Sonoma, Sequoia)
 
 **Qualification note:** All major platforms are supported. Note the platform and version for the email.
 
@@ -93,16 +96,19 @@ Ask them to describe the data they plan to bring to the boot camp:
 - If yes to restrictions: what is the nature of the restriction? (e.g., cannot leave premises, cannot be shared with third parties, requires anonymization)
 - If data cannot be used directly: can they prepare an anonymized or synthetic version that preserves the structure and field types?
 
-Then ask directly: Do you have any of the following available that you could share with Senzing in advance? This helps Senzing assess whether your data is a good fit and tailor the exercises before the workshop.
+Then ask this as an explicit standalone question — present it as a numbered list:
 
-- Sample anonymized data
-- JSON Schema
-- JSON Type Definition (RFC 8927)
-- CSV headers (no data rows required)
-- Database schema
-- API documentation
+"To help Senzing assess whether your data is a good fit and tailor the exercises before the workshop, do you have any of the following that you could share with us in advance?"
 
-Ask which of these they have and whether they would be willing to share them. Note the response in the email.
+1. Sample anonymized data
+2. JSON Schema
+3. JSON Type Definition (RFC 8927)
+4. CSV headers (no data rows required)
+5. Database schema
+6. API documentation
+7. None of the above
+
+Ask the applicant to select which they have. For each item they select, ask whether they are willing to share it with Senzing ahead of the workshop. Record both what they have and what they are willing to share in the email.
 
 **Qualification note:** Data should be structured records with identity-related fields (name, address, ID numbers, etc.). Completely unstructured data (e.g., raw documents) is not suitable. PII restrictions are important to note. Anonymized data that preserves structure is acceptable and often preferable.
 
