@@ -39,16 +39,17 @@ After all fields have been asked, display a recap of everything entered:
 
 ## Section 2: Platform
 
-Present the following as a numbered list and ask the applicant to choose:
+Present the following as a numbered list and ask the applicant to choose their platform:
 
 1. Windows
 2. Linux
 3. macOS
 
-Once they choose:
-- If **Windows**: ask which version (e.g., Windows 10, Windows 11)
-- If **Linux**: ask which distribution (e.g., Ubuntu, RHEL, Debian, Fedora) and which version number
-- If **macOS**: ask which version (e.g., Ventura, Sonoma, Sequoia)
+Wait for their answer. Then ask a follow-up question based on what they chose — do not ask both at once:
+
+- If **Windows**: ask "Which version of Windows? (e.g., Windows 10, Windows 11)"
+- If **Linux**: ask "Which Linux distribution are you using? (e.g., Ubuntu, RHEL, Debian, Fedora)" — then after they answer, ask "Which version?"
+- If **macOS**: ask "Which version of macOS? (e.g., Ventura, Sonoma, Sequoia)"
 
 **Qualification note:** All major platforms are supported. Note the platform and version for the email.
 
