@@ -30,6 +30,7 @@ Ask in this order:
 6. Mailing address — ask street, city, state, zip, and country together as one prompt
 
 After all fields have been asked, display a recap of everything entered:
+
 - Show "— skipped —" for any field they skipped
 - Ask: "Does this look correct, or would you like to update anything before we continue?"
 - If they want to update something, ask which field and collect the new value
@@ -88,9 +89,12 @@ Ask about their prior experience with Senzing:
 
 - Have they used Senzing before? If yes, in what capacity (evaluation, production, proof of concept)?
 - Are they familiar with entity resolution concepts?
-- Do they have a Senzing license, or will they need a trial license?
+- Do they have a Senzing license?
+- If yes: ask what type of license it is and how many records it supports.
+- Then ask: "The boot camp will involve working with your sample data. Based on the volume you described, do you believe your current license is sufficient to cover that data during the workshop?"
+- If no or unsure: note that a trial license will be needed and flag it in the email.
 
-**Qualification note:** No prior Senzing experience is required, but it helps to calibrate the boot camp level. Note their experience level.
+**Qualification note:** No prior Senzing experience is required, but it helps to calibrate the boot camp level. Note their experience level and license status — specifically whether their license covers the data volume they plan to bring.
 
 ---
 
