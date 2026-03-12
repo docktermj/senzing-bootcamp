@@ -283,10 +283,6 @@ Ask the following one at a time:
 
 **Computing environment:**
 
-- What type of computers will participants be using? Present as a numbered list:
-  1. Laptops
-  2. Workstations
-  3. Mixed
 - Are all participant machines running the same platform and OS version as described earlier? (If no, ask them to describe the variation)
 - Will each participant have their own machine? (If no, ask how many participants will share)
 
@@ -360,7 +356,7 @@ Once all sections are complete, draft a qualification email to Senzing.
 - Data description — use the applicant's own words: type, number of sources, volume, format (including database system or API type if applicable), PII status, usage restrictions, anonymization plan
 - Data access method — **Senzing-hosted only** (laptop or remote internet; flag as blocker if data cannot leave premises)
 - Data artifacts the applicant is willing to share with Senzing in advance (list each item)
-- Workshop venue details — **on-site only**: computing environment, venue address, facilities, facilitation preference
+- Workshop venue details — **on-site only**: venue address, computing environment (one machine per participant?), facilities, facilitation preference
 - Goals — quote the applicant's stated problem, desired output form, and success criteria directly
 - A recommendation line: "Based on the above, this applicant [appears qualified / may need additional setup before the workshop / has a potential blocker that requires resolution]" followed by a brief explanation
 
