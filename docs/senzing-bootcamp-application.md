@@ -46,25 +46,29 @@ After all fields have been asked, display a recap of everything entered:
 
 ## Section 2: Platform
 
-Present the following as a numbered list and ask the applicant to choose their platform:
+Ask what platform all participants will be using for the boot camp. If participants are not all on the same platform, ask them to describe the mix.
+
+Present the following as a numbered list:
 
 1. Windows
 2. Linux
 3. macOS
+4. Mixed (ask which platforms and how many participants on each)
 
 Wait for their answer. Then ask a follow-up question based on what they chose — do not ask both at once:
 
 - If **Windows**: ask "Which version of Windows? (e.g., Windows 10, Windows 11)"
-- If **Linux**: ask "Which Linux distribution are you using? (e.g., Ubuntu, RHEL, Debian, Fedora)" — then after they answer, ask "Which version?"
+- If **Linux**: ask "Which Linux distribution are all participants using? (e.g., Ubuntu, RHEL, Debian, Fedora)" — then after they answer, ask "Which version?"
 - If **macOS**: ask "Which version of macOS? (e.g., Ventura, Sonoma, Sequoia)"
+- If **Mixed**: note each platform and version in the email
 
-**Qualification note:** All major platforms are supported. Note the platform and version for the email.
+**Qualification note:** All major platforms are supported. Note the platform(s) and version(s) for all participants in the email.
 
 ---
 
 ## Section 3: AI Tools
 
-Present the following as a numbered list and ask the applicant to select all that apply:
+Ask which AI tools all participants currently use or have access to. Present the following as a numbered list and ask them to select all that apply across the group:
 
 1. Claude (Anthropic)
 2. ChatGPT / OpenAI
@@ -73,7 +77,7 @@ Present the following as a numbered list and ask the applicant to select all tha
 5. Other (ask which)
 6. None
 
-**Qualification note:** Claude is preferred for the boot camp. If they use another tool, note it — they can still attend but may need to adapt some exercises.
+**Qualification note:** Claude is preferred for the boot camp. If participants use other tools, note it — they can still attend but may need to adapt some exercises. If some participants have Claude and others do not, note the mix.
 
 ---
 
@@ -136,15 +140,15 @@ Ask the applicant to select which they have. For each item they select, ask whet
 
 ## Section 7: Docker Experience
 
-Ask about their experience with Docker and containers:
+Ask about Docker across all participants and their machines:
 
-- Have they used Docker before?
-- Can they run `docker run hello-world` successfully on their machine?
-- Are they familiar with Docker Compose?
-- Is Docker installed (or installable) on the machine they'll use for the boot camp? (Note: Docker is free to install on Linux, macOS, and Windows)
-- Are there any corporate restrictions that prevent running Docker containers?
+- Have any of the participants used Docker before?
+- Can participants run `docker run hello-world` successfully on their machines?
+- Are participants familiar with Docker Compose?
+- Is Docker installed (or installable) on all machines participants will use for the boot camp? (Note: Docker is free to install on Linux, macOS, and Windows)
+- Are there any corporate restrictions that prevent participants from running Docker containers?
 
-**Qualification note:** Docker is required — Senzing runs in containers. No Docker access is a disqualifier unless it can be resolved before the workshop. If they don't have Docker, reassure them it is free and straightforward to install, and ask them to confirm they will install it before the event. Note their experience level and any restrictions.
+**Qualification note:** Docker is required on every participant's machine — Senzing runs in containers. If Docker is not installed, reassure them it is free and straightforward to install, and confirm they will install it on all machines before the event. Note the group's experience level and any restrictions.
 
 ---
 
