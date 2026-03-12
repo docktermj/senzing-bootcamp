@@ -183,8 +183,8 @@ Ask the following one at a time:
 **Location:**
 
 - Is the expectation that the boot camp is hosted on-site at their location, or off-site?
-- If on-site: what city and state are they located in?
-- If on-site: confirm that participants will have internet access from their workstations (ties back to Section 3)
+- If on-site: ask for the full venue address (street, city, state, zip, country). This is mandatory — do not skip or leave blank. Ask again if not provided.
+- If on-site: confirm that participants will have internet access from their workstations (ties back to Section 4)
 - If off-site: confirm that participants are able to bring their example data with them to work with outside their company environment. Note any data portability restrictions.
 
 **Venue and facilities (on-site only):**
@@ -240,9 +240,10 @@ Once all sections are complete, draft a qualification email to Senzing.
 - Internet access situation (note any air-gap, proxy, or firewall restrictions)
 - Docker status (installed / will install / blocked) and experience level
 - Programming language(s) — note if any are in-development or unsupported
-- Senzing experience level and license status
-- Data description — use the applicant's own words where possible: type, volume, format, PII status, usage restrictions, anonymization plan, and any data artifacts they can share in advance
-- Workshop logistics: participant count, computing environment (laptops/workstations, one per person?), on-site vs. off-site, city/state, venue facilities, preferred dates and blackout periods
+- Senzing experience level and license status — specify clearly: does the applicant need a trial license? If they have a license, does it cover the data volume they plan to bring? State the license size needed if applicable.
+- Data description — use the applicant's own words where possible: type, volume, format, PII status, usage restrictions, anonymization plan
+- Data artifacts the applicant is willing to share with Senzing in advance (list each item they confirmed they have and will share)
+- Workshop logistics: participant count, computing environment (laptops/workstations, one per person?), on-site vs. off-site, full venue address (mandatory if on-site), venue facilities, preferred dates and blackout periods
 - Goals — quote the applicant's stated problem and success criteria directly
 - A recommendation line: "Based on the above, this applicant [appears qualified / may need additional setup before the workshop / has a potential blocker that requires resolution]" followed by a brief explanation
 
