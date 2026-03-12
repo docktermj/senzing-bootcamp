@@ -55,11 +55,11 @@ After all fields have been asked, display a recap of everything entered:
 
 ## Section 2: Boot Camp Type
 
-There are three types of Senzing Boot Camps. Ask the applicant which they are interested in:
+There are three types of Senzing Boot Camps. Present the following as a numbered list and ask the applicant which they are interested in:
 
 1. **On-site** — Senzing comes to the applicant's location and runs the workshop there
 2. **Senzing-hosted** — The applicant's team travels to a Senzing location
-3. **Virtual** — The workshop is conducted remotely over Zoom or Microsoft Teams
+3. **Virtual** — The workshop is conducted remotely over Zoom or Microsoft Teams *(not yet available)*
 
 Wait for their answer, then follow the routing rules below.
 
@@ -74,15 +74,15 @@ Wait for their answer, then follow the routing rules below.
 **If Senzing-hosted:**
 - Skip Section 6 (Internet Access) — Senzing's facility handles connectivity.
 - Skip Section 11 (Workshop Logistics) — Senzing handles the venue.
-- After recording their answer, ask this follow-up: "During the workshop, how will you access your data? Will you bring it on your laptop, or will you access it remotely over the internet?"
+- Ask this follow-up: "During the workshop, how will you access your data? Will you bring it on your laptop, or will you access it remotely over the internet?"
 - Note their data access method in the email.
 
 ---
 
 **If Virtual:**
-- No additional specifics are defined for virtual boot camps at this time.
-- Note the virtual preference in the email and flag it for Senzing to follow up with details.
-- Skip Section 6 (Internet Access) and Section 11 (Workshop Logistics).
+- Inform the applicant: "Virtual boot camps are not yet available. We are working on this format and will announce it when it becomes available. Would you like to apply for an on-site or Senzing-hosted boot camp instead?"
+- If they choose one of the available types, proceed with that type.
+- If they want to wait for virtual, note their interest in the email and flag it for Senzing to follow up when virtual becomes available. End the application after collecting their contact information.
 
 ---
 
