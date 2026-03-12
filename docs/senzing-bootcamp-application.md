@@ -11,7 +11,20 @@ At the end, synthesize everything into a draft email.
 
 ---
 
-## Section 1: Platform
+## Section 1: Contact Information
+
+Ask for the following contact details:
+
+- Full name
+- Job title
+- Company name
+- Email address
+- Phone number
+- Mailing address (street, city, state, zip, country)
+
+---
+
+## Section 2: Platform
 
 Ask what operating system they will be using for the boot camp:
 
@@ -23,7 +36,7 @@ Ask what operating system they will be using for the boot camp:
 
 ---
 
-## Section 2: AI Tools
+## Section 3: AI Tools
 
 Ask which AI tools they currently use or have access to:
 
@@ -38,7 +51,7 @@ Ask which AI tools they currently use or have access to:
 
 ---
 
-## Section 3: Internet Access
+## Section 4: Internet Access
 
 Ask about their network environment:
 
@@ -50,7 +63,7 @@ Ask about their network environment:
 
 ---
 
-## Section 4: Senzing Experience
+## Section 5: Senzing Experience
 
 Ask about their prior experience with Senzing:
 
@@ -62,7 +75,7 @@ Ask about their prior experience with Senzing:
 
 ---
 
-## Section 5: Sample Data
+## Section 6: Sample Data
 
 Ask them to describe the data they plan to bring to the boot camp:
 
@@ -89,7 +102,7 @@ This is optional but helps Senzing tailor the exercises to your specific data st
 
 ---
 
-## Section 6: Docker Experience
+## Section 7: Docker Experience
 
 Ask about their experience with Docker and containers:
 
@@ -103,7 +116,7 @@ Ask about their experience with Docker and containers:
 
 ---
 
-## Section 7: Programming Languages
+## Section 8: Programming Languages
 
 Ask which programming languages they use regularly:
 
@@ -112,11 +125,15 @@ Ask which programming languages they use regularly:
 - C# (.NET)
 - Other (ask which)
 
-**Qualification note:** Senzing has strong SDK support for Java, Python, and C#. If their primary language is not in this list, flag it for review as exercises will be tailored to supported languages.
+**Qualification note:**
+- Java, Python, and C# are fully supported — exercises will be tailored to whichever they use.
+- If the applicant mentions Rust, Go, or R: acknowledge that Senzing has SDK support for those languages currently in development, and note it in the email.
+- Do not proactively mention Rust, Go, or R — only acknowledge if the applicant brings them up.
+- All other languages: inform the applicant that Senzing does not currently have SDK support for that language, and flag it as a potential blocker in the email.
 
 ---
 
-## Section 8: Workshop Logistics
+## Section 9: Workshop Logistics
 
 Ask the following one at a time:
 
@@ -157,7 +174,7 @@ Ask about the room and setup they can provide:
 
 ---
 
-## Section 9: Goals
+## Section 10: Goals
 
 Senzing's definition of success for the boot camp is that every participant walks away with
 working code they can use in their own environment. Share this with the applicant, then ask:
@@ -177,7 +194,7 @@ Once all sections are complete, summarize the applicant's answers and draft an e
 
 The email should include:
 
-- Applicant name and company (ask if not already provided)
+- Applicant name, title, company, email, phone, and mailing address
 - Platform and OS version
 - AI tools available
 - Internet access situation (note any air-gap or proxy issues)
