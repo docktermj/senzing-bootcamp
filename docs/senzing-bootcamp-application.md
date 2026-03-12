@@ -89,9 +89,11 @@ Ask which AI tools all participants currently use or have access to. Present the
 Ask about the network environment for all participants — not just the applicant:
 
 - Do all participants have unrestricted internet access on the machines they'll use?
-- Are any machines behind a corporate proxy or firewall? If yes, can they reach external APIs?
-- Are any machines air-gapped (no internet access)? If yes, is there a path to get internet access for the boot camp?
-- The boot camp uses AI APIs (e.g., api.anthropic.com for Claude). Can participants reach external API endpoints from the workshop network? (This is separate from general web browsing access)
+- Are any machines behind a corporate proxy or firewall?
+- If yes to proxy/firewall: can participants reach external APIs through it?
+- Are any machines air-gapped (no internet access)?
+- If yes to air-gapped: is there a path to get internet access arranged for the boot camp?
+- The boot camp requires calling AI APIs (e.g., api.anthropic.com for Claude). Can participants reach external API endpoints from the workshop network? (This is separate from general web browsing)
 
 **Qualification note:** Internet access and external API reachability are required on every participant's machine. Air-gapped environments or networks that block external API calls are a disqualifier unless access can be arranged. Note any restrictions.
 
@@ -106,7 +108,8 @@ Ask them to describe the data they plan to bring to the boot camp — ask one qu
 - Roughly how many records across all sources? (hundreds, thousands, millions?)
 - What format? (CSV, JSON, database, API, other)
 - If **database**: ask which database system (e.g., PostgreSQL, MySQL, Oracle, SQL Server, SQLite)
-- If **API**: ask whether it is REST or SOAP, and whether API documentation is available
+- If **API**: ask whether it is REST or SOAP
+- If **API**: then ask whether API documentation is available
 - Does the data contain PII (personally identifiable information)?
 - Is there any restriction on using the data in a workshop setting?
 - If yes to restrictions: what is the nature of the restriction? (e.g., cannot leave premises, cannot be shared with third parties, requires anonymization)
@@ -138,7 +141,8 @@ Ask about their prior experience with Senzing — one question at a time:
 - Have they previously used a Senzing trial license?
 - Are they familiar with entity resolution concepts?
 - Do they have a Senzing license?
-- If yes: ask what type of license it is and how many records it supports.
+- If yes: ask what type of license it is.
+- Then ask: how many records does the license support?
 - Then ask: "Based on the data volume you described, do you believe your current license is sufficient to cover all sources and records during the workshop?"
 - If no or unsure: note that a trial license will be needed and flag it in the email. Ask how many records the trial license would need to cover based on their data volume.
 - If a trial license is needed: ask how long their internal approval or procurement process typically takes. (This may affect scheduling.)
