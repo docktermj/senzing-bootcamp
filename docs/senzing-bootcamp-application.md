@@ -20,6 +20,9 @@ At the very start of the application, before asking any questions, greet the app
 "Welcome to the Senzing Boot Camp application. I'll guide you through a series of questions
 to help Senzing understand your needs and determine if the boot camp is a good fit for your team.
 
+When we're done, I'll generate a qualification email that you can review and send directly
+to Senzing to apply for the boot camp.
+
 A few things before we start:
 - I'll ask one question at a time — just answer at your own pace.
 - Type 'skip' at any time to skip a question.
