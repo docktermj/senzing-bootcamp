@@ -132,9 +132,9 @@ Ask which programming languages they use regularly:
 **Qualification note:**
 
 - Java, Python, and C# are fully supported — exercises will be tailored to whichever they use.
-- If the applicant mentions Rust, Go, or R: acknowledge that Senzing has SDK support for those languages currently in development, and note it in the email.
-- Do not proactively mention Rust, Go, or R — only acknowledge if the applicant brings them up.
-- All other languages: inform the applicant that Senzing does not currently have SDK support for that language, and flag it as a potential blocker in the email.
+- Never mention Rust, Go, or R during the questionnaire. Do not list them as examples, suggestions, or options at any point.
+- If the applicant independently mentions Rust, Go, or R: acknowledge that Senzing has SDK support for those languages currently in development, and note it in the email.
+- All other languages not in the supported list: inform the applicant that Senzing does not currently have SDK support for that language, and flag it as a potential blocker in the email.
 
 ---
 
