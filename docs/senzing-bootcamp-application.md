@@ -17,14 +17,23 @@ applicant actually asks a question — do not proactively load them.
 
 ## Section 1: Contact Information
 
-Ask for the following contact details:
+Ask for each field one at a time. After each question, let the applicant know they can type
+"skip" to move on without answering. Do not ask multiple fields at once.
 
-- Full name
-- Job title
-- Company name
-- Email address
-- Phone number
-- Mailing address (street, city, state, zip, country)
+Ask in this order:
+
+1. Full name
+2. Job title
+3. Company name
+4. Email address
+5. Phone number
+6. Mailing address — ask street, city, state, zip, and country together as one prompt
+
+After all fields have been asked, display a recap of everything entered:
+- Show "— skipped —" for any field they skipped
+- Ask: "Does this look correct, or would you like to update anything before we continue?"
+- If they want to update something, ask which field and collect the new value
+- Once confirmed, proceed to Section 2
 
 ---
 
