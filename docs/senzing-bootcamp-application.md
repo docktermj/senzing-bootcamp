@@ -9,6 +9,10 @@ Work through each section below conversationally — one topic at a time.
 Do not dump all questions at once. Ask, wait for the answer, then move on.
 At the end, synthesize everything into a draft email.
 
+If the applicant asks questions about Senzing or the boot camp at any point, answer them
+using information from senzing.com or docs.senzing.com. Only fetch those sites if the
+applicant actually asks a question — do not proactively load them.
+
 ---
 
 ## Section 1: Contact Information
