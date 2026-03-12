@@ -350,6 +350,7 @@ Once all sections are complete, draft a qualification email to Senzing.
 - When the applicant provided free-form text (e.g., describing their data, their goals, their problem), quote or closely paraphrase their words. Their own description is more valuable than a boilerplate restatement.
 - For structured answers (e.g., OS version, participant count), a brief summary is fine.
 - Flag any potential blockers clearly — do not bury them.
+- Do not use tables. Write the email in plain prose and labeled sections with bullet points where appropriate.
 
 **The email should include:**
 
