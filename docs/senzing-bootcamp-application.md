@@ -61,6 +61,7 @@ Ask in this order:
 4. What is your role in this boot camp? Present as a numbered list:
    1. I am a developer who will attend the boot camp myself
    2. I am a manager or coordinator sending my team
+   - If they select option 2, ask as a follow-up: "Will you also be attending the boot camp yourself, in addition to your team?"
 5. Email address
 6. Phone number
 7. Mailing address — ask street, city, state, zip, and country together as one prompt
@@ -71,8 +72,9 @@ Ask in this order:
 After all fields have been asked, display a recap of everything entered:
 
 - Show "— skipped —" for any field they skipped
-- Ask: "Does everything look correct? Would you like to update anything before we continue?"
-- If they want to update something, ask which field and collect the new value
+- Ask: "Does everything look correct?"
+- If they confirm, proceed to Section 2. If they want to update something, ask: "Which field would you like to update?" then collect the new value.
+- After collecting the new value, re-display the full recap with the updated information, then ask: "Does everything look correct?"
 - Once confirmed, proceed to Section 2
 
 ---
@@ -132,7 +134,6 @@ These questions apply to all boot camp types. Ask one at a time:
 
 - How many people do they expect to participate in the boot camp?
 - What is the general technical level of the participants? (e.g., junior developers, mid-level, senior engineers, architects, mixed)
-- What time zone are they in? (This helps Senzing with scheduling.)
 - The boot camp runs two consecutive days, typically Tuesday/Wednesday or Wednesday/Thursday. What dates work best for the group?
 - Are there any dates or periods to avoid? (e.g., holidays, company blackouts, quarter-end)
 
@@ -147,7 +148,7 @@ Present the following as a numbered list:
 1. Windows
 2. Linux
 3. macOS
-4. Mixed (ask which platforms and how many participants on each)
+4. Mixed
 
 Wait for their answer. Then ask a follow-up question based on what they chose — do not ask both at once:
 
@@ -241,13 +242,13 @@ If data cannot leave the premises, flag this as a potential blocker.
 
 ## Section 8: Senzing Experience
 
-Ask about their prior experience with Senzing — one question at a time:
+Ask about the participants' prior experience with Senzing — one question at a time:
 
-- Have they used Senzing before?
+- Have any of the participants used Senzing before?
 - If yes: in what capacity? (evaluation, production, proof of concept)
-- Have they previously used a Senzing trial license?
-- Are they familiar with entity resolution concepts?
-- Do they have a Senzing license?
+- Have any of the participants previously used a Senzing trial license?
+- Are the participants familiar with entity resolution concepts?
+- Does the company have a Senzing license?
 - If yes: ask what type of license it is.
 - Then ask: how many records does the license support?
 - Then ask: "Based on the data volume you described, do you believe your current license is sufficient to cover all sources and records during the workshop?"
@@ -255,7 +256,7 @@ Ask about their prior experience with Senzing — one question at a time:
 - Then ask: how many records would the trial license need to cover?
 - Then ask: how long does their internal approval or procurement process typically take? (This may affect scheduling.)
 
-**Qualification note:** No prior Senzing experience is required, but it helps to calibrate the boot camp level. Note their experience level and license status — specifically whether their license covers the data volume they plan to bring, and the required license size if a trial is needed.
+**Qualification note:** No prior Senzing experience is required, but it helps to calibrate the boot camp level. Note the participants' experience level and the company's license status — specifically whether the license covers the data volume they plan to bring, and the required license size if a trial is needed.
 
 ---
 
@@ -281,7 +282,9 @@ Ask which programming languages participants use regularly. Present as a numbere
 1. Java
 2. Python
 3. C# (.NET)
-4. Other (ask which)
+4. Other
+
+If **Other** is selected, ask: "Which language(s) do participants use?"
 
 **Qualification note:**
 
@@ -312,18 +315,11 @@ The host is responsible for providing all equipment and facilities. Senzing does
 
 - Tables and chairs for all participants?
 - Projector or large display screen?
-- Whiteboard or flip chart?
+- Whiteboard?
 - Sufficient power outlets for all laptops/workstations?
 - Wi-Fi or wired internet connectivity in the room?
 
-**Facilitation:**
-
-- What facilitation does the applicant expect for the workshop? Present as a numbered list:
-  1. Senzing provides on-site facilitation
-  2. Senzing provides remote facilitation
-  3. Self-facilitated (no Senzing involvement)
-
-**Qualification note:** Note venue address, facilities, and facilitation preference for scheduling.
+**Qualification note:** Note venue address and facilities for scheduling.
 
 ---
 
@@ -358,13 +354,13 @@ Once all sections are complete, draft a qualification email to Senzing.
 
 **The email should include:**
 
-- Full contact information: name, title, company, email, phone, mailing address
+- The opening paragraph should be written in first person, as the applicant. For example: "My name is [Name]. I am a [title] at [company] and I would like to apply for a Senzing Boot Camp." Follow with contact details (email, phone, mailing address) as a brief bullet list beneath the opening paragraph.
 - Applicant's role (attending developer or coordinating manager)
 - Decision-maker status (is the applicant the decision-maker, or who else needs to approve?)
 - How they heard about the boot camp
 - Existing Senzing contact (if any)
-- Boot camp type (on-site / Senzing-hosted / virtual-interest)
-- Participant count, technical level, and time zone
+- Boot camp type (on-site / Senzing-hosted / virtual-interest) — **if on-site**, include the venue address here
+- Participant count and technical level
 - Preferred dates and blackout periods
 - Platform(s) and OS version(s) for all participants
 - AI tools available across the group
