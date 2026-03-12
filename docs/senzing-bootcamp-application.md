@@ -161,7 +161,7 @@ Ask the following one at a time:
 
 **Venue and facilities (on-site only):**
 
-Ask about the room and setup they can provide:
+The host is responsible for providing all equipment and facilities. Senzing does not supply hardware. Ask about the room and setup they can provide:
 
 - Tables and chairs for all participants?
 - Projector or large display screen?
