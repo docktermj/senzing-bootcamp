@@ -16,8 +16,6 @@ Weeks before the boot camp.
 | 6 | Confirms boot camp dates | |
 | 7 | Shares data artifacts in advance (if agreed) | |
 | 8 | | Reviews data artifacts and prepares tailored exercises |
-| 9 | | Provisions trial license (if needed) and sends to participant |
-| 10 | Receives license and installs it | |
 
 ### On-site preparation (company-sponsored)
 
@@ -25,12 +23,12 @@ Weeks before the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 11 | Designates venue and confirms facilities | |
-| 12 | Arranges visitor access for Senzing facilitators | |
-| 13 | Confirms network: internet, API access, software downloads | |
-| 14 | Installs Docker, AI tools; prepares data | |
-| 15 | Confirms all preparation items complete | |
-| 16 | | Confirms facilitator travel and logistics |
+| 10 | Designates venue and confirms facilities | |
+| 11 | Arranges visitor access for Senzing facilitators | |
+| 12 | Confirms network: internet, API access, software downloads | |
+| 13 | Installs Docker, AI tools; prepares data | |
+| 14 | Confirms all preparation items complete | |
+| 15 | | Confirms facilitator travel and logistics |
 
 ### Senzing-hosted preparation (Senzing-chosen location)
 
@@ -38,12 +36,18 @@ Weeks before the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 11 | | Sends venue location and travel details |
-| 12 | Arranges travel to Senzing location | |
-| 13 | Decides data access method (laptop or remote) | |
-| 14 | Installs Docker, AI tools; prepares data | |
-| 15 | Confirms all preparation items complete | |
-| 16 | | Confirms venue, equipment, and network are ready |
+| 10 | | Sends venue location and travel details |
+| 11 | Arranges travel to Senzing location | |
+| 12 | Decides data access method (laptop or remote) | |
+| 13 | Installs Docker, AI tools; prepares data | |
+| 14 | Confirms all preparation items complete | |
+| 15 | | Confirms venue, equipment, and network are ready |
+
+### 1 week before
+
+| Step | Participant | Senzing |
+| ---- | ----------- | ------- |
+| 16 | | Provisions trial license (if needed) and sends to participant |
 
 ## Day 1 — Morning
 
@@ -51,17 +55,18 @@ Weeks before the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 17 | Arrives at venue | |
-| 18 | | Welcomes participants; introductions |
-| 19 | | Presents boot camp overview and agenda |
-| 20 | Verifies environment: Docker, AI tools, license | |
-| 21 | | Assists with any setup issues |
-| 22 | | Introduces entity resolution concepts |
-| 23 | Follows along; asks questions | |
-| 24 | | Answers questions |
-| 25 | | Assigns first exercise: load sample data using AI-assisted coding |
-| 26 | Works through exercise with AI tools | |
-| 27 | | Coaches and troubleshoots |
+| 17 | Receives license and installs it | |
+| 18 | Arrives at venue | |
+| 19 | | Welcomes participants; introductions |
+| 20 | | Presents boot camp overview and agenda |
+| 21 | Verifies environment: Docker, AI tools, license | |
+| 22 | | Assists with any setup issues |
+| 23 | | Introduces agentic entity resolution concepts |
+| 24 | Follows along; asks questions | |
+| 25 | | Answers questions |
+| 26 | | Kicks off first exercise: load sample data using AI-assisted coding |
+| 27 | Works through exercise with AI tools | |
+| 28 | | Coaches and troubleshoots |
 
 ## Day 1 — Afternoon
 
@@ -69,17 +74,17 @@ Weeks before the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 28 | | Introduces data mapping to Senzing entity specification |
-| 29 | Maps their own data with AI assistance | |
-| 30 | | Reviews mappings and provides feedback |
-| 31 | Loads their data into Senzing | |
-| 32 | | Monitors loading and helps resolve errors |
-| 33 | Reviews entity resolution results | |
-| 34 | | Explains matches, non-matches, and why |
-| 35 | Explores resolved entities and relationships | |
-| 36 | | Guides exploration and highlights findings |
-| 37 | Shares observations and questions | |
-| 38 | | Leads end-of-day review; sets expectations for Day 2 |
+| 29 | | Introduces data mapping to Senzing entity specification |
+| 30 | Maps their own data with AI assistance | |
+| 31 | | Reviews mappings and provides feedback |
+| 32 | Loads their data into Senzing | |
+| 33 | | Monitors loading and helps resolve errors |
+| 34 | Reviews entity resolution results | |
+| 35 | | Explains matches, non-matches, and why |
+| 36 | Explores resolved entities and relationships | |
+| 37 | | Guides exploration and highlights findings |
+| 38 | Shares observations and questions | |
+| 39 | | Leads end-of-day review; sets expectations for Day 2 |
 
 ## Day 2 — Morning
 
@@ -87,13 +92,13 @@ Weeks before the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 39 | | Reviews Day 1 results and introduces Day 2 goals |
-| 40 | Refines data mapping based on Day 1 findings | |
-| 41 | | Advises on mapping improvements |
-| 42 | Builds working code in preferred language (Python, Java, C#) | |
-| 43 | | Provides SDK guidance and code review |
-| 44 | Integrates Senzing into target form (API, script, batch job, microservice) | |
-| 45 | | Coaches on integration patterns |
+| 40 | | Reviews Day 1 results and introduces Day 2 goals |
+| 41 | Refines data mapping based on Day 1 findings | |
+| 42 | | Advises on mapping improvements |
+| 43 | Builds working code in preferred language (Python, Java, C#) | |
+| 44 | | Provides SDK guidance and code review |
+| 45 | Integrates Senzing into target form (API, script, batch job, microservice) | |
+| 46 | | Coaches on integration patterns |
 
 ## Day 2 — Afternoon
 
@@ -101,15 +106,25 @@ Weeks before the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 46 | Uses resolved entities to answer business questions | |
-| 47 | | Helps formulate queries and interpret results |
-| 48 | Tests and validates working code | |
-| 49 | | Reviews code and suggests improvements |
-| 50 | Packages deliverables for their own environment | |
-| 51 | | Confirms output is complete and usable |
-| 52 | | Conducts final review with each participant |
-| 53 | Confirms they have working, deployable code | |
-| 54 | | Wraps up; provides contact info for follow-up |
+| 47 | Uses resolved entities to answer business questions | |
+| 48 | | Helps formulate queries and interpret results |
+| 49 | Tests and validates working code | |
+| 50 | | Reviews code and suggests improvements |
+| 51 | Packages deliverables for their own environment | |
+| 52 | | Confirms output is complete and usable |
+| 53 | | Conducts final review with each participant |
+| 54 | Confirms they have working, deployable code | |
+
+## Boot Camp Wrap-Up
+
+End of Day 2.
+
+| Step | Participant | Senzing |
+| ---- | ----------- | ------- |
+| 55 | | Kicks off quick video sessions to capture what each participant (or group) built |
+| 56 | Records a short video demo of their working code and results | |
+| 57 | | Provides contact info for follow-up support |
+| 58 | Shares feedback on the boot camp experience | |
 
 ## Post-Boot Camp
 
@@ -117,8 +132,8 @@ Days and weeks after the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 55 | Deploys working code in their own environment | |
-| 56 | Reaches out with questions or issues | |
-| 57 | | Provides follow-up support |
-| 58 | Evaluates next steps: production license, expanded data sources | |
-| 59 | | Assists with licensing and production planning |
+| 59 | Deploys working code in their own environment | |
+| 60 | Reaches out with questions or issues | |
+| 61 | | Provides follow-up support |
+| 62 | Evaluates next steps: production license, expanded data sources | |
+| 63 | | Assists with licensing and production planning |
