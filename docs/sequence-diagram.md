@@ -132,8 +132,9 @@ Days and weeks after the boot camp.
 
 | Step | Participant | Senzing |
 | ---- | ----------- | ------- |
-| 59 | Deploys working code in their own environment | |
-| 60 | Reaches out with questions or issues | |
-| 61 | | Provides follow-up support |
-| 62 | Evaluates next steps: production license, expanded data sources | |
-| 63 | | Assists with licensing and production planning |
+| 59 | | Sends social media badges, certifications, and accreditation |
+| 60 | Deploys working code in their own environment | |
+| 61 | Reaches out with questions or issues | |
+| 62 | | Provides follow-up support |
+| 63 | Evaluates next steps: production license, expanded data sources | |
+| 64 | | Assists with licensing and production planning |
